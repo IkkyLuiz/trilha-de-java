@@ -1,13 +1,12 @@
 
-
 public class BoletimEstudantil {
 public static void main(String[] args) {
-int mediaFinal = 7;
+int mediaFinal = 10;
 if(mediaFinal<7)	
-System.out.println("REPROVADO"); 
+System.out.println("VOCE FOI REPROVADO"); 
 else if(mediaFinal==7)
-System.out.println("RECUPERAÇÃO"); 
+System.out.println("VOCE ESTA DE RECUPERACAO"); 
 else
-System.out.println("APROVADO"); 		
+System.out.println("VOCE FOI APROVADO"); 		
 }
 }
